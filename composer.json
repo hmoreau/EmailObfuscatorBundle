@@ -1,0 +1,24 @@
+{
+    "name": "hmo/EmailObfuscatorBundle",
+    "description": "Twig Extension Bundle for Symfony3 for obfuscating emails",
+    "keywords": ["twig", "twig extensions", "twig filters"],
+    "homepage": "https://github.com/hmoreau/EmailObfuscatorBundle/new/master",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hubert Moreau",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": { "Hmo\\Bundle\\EmailObfuscatorBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
